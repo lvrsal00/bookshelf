@@ -29,8 +29,8 @@ function App() {
     })
       .then((resp) => resp.json())
       .then((resp) => {
-        resp.map((ljud) =>
-          ljud.username === name["ime"] ? setId(ljud.id) : setId(0)
+        resp.map((users) =>
+          users.username === name["ime"] ? setId(users.id) : setId(0)
         );
       })
       .catch((error) => console.log(error));
