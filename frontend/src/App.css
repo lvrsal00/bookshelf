@@ -1,0 +1,83 @@
+.app {
+  background-color: #e0e7e9;
+}
+
+header {
+  background-color: #354649;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 1px;
+}
+
+.search {
+  background-color: transparent;
+  border: 2px solid #22254b;
+  border-radius: 50px;
+  color: white;
+  font-size: 1.2em;
+  padding: 0.5em 1.5em;
+}
+
+.search:focus {
+  outline: 0;
+}
+
+.korisnik {
+  position: relative;
+  top: 14px;
+}
+
+.book-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.book {
+  background-color: #6c7a89;
+  border-radius: 3px;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  position: relative;
+  margin: 1rem;
+}
+
+.book img {
+  width: 250px;
+  height: 350px;
+}
+
+.book-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1rem;
+}
+.book-info span {
+  background-color: transparent;
+  font-size: x-large;
+}
+
+.book-info h3 {
+  margin: 0;
+}
+
+.button {
+  background-color: #e0e7e9;
+  color: #354649;
+  border-color: #354649;
+}
+
+.tag {
+  background-color: #354649;
+  border-radius: 5px;
+  font-weight: bold;
+  padding: 0.5rem;
+}
+.tag.green {
+  color: green;
+}
+.tag.red {
+  color: red;
+}
