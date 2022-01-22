@@ -1,1 +1,1 @@
-Simple full stack web application built with Django and React.
+Simple full stack web application for rating books, built with Django and React.
