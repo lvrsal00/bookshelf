@@ -43,6 +43,7 @@ const Book = (props) => {
               key={book.id}
               onClick={(rate) => {
                 RateBook({ book: book.id, user: props.id, stars: rate });
+                window.location.reload();
               }}
             />
           </div>

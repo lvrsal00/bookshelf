@@ -44,6 +44,7 @@ const MyBook = (props) => {
                 user: props.id,
                 stars: rate,
               });
+              window.location.reload();
             }}
           />
         </div>
